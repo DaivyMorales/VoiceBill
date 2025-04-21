@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
 @plugin "daisyui" {
-  themes: business --default;
+  themes: forest --default;
 }
 
 @theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h3 {
+  @apply text-2xl font-bold text-stone-200; 
 }
